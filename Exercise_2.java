@@ -50,11 +50,11 @@ public class Exercise_2 {
 
 
         //EX4
-        System.out.println("Enter a your grade: ");
+        System.out.println("Enter a your marks (from 100): ");
         int grade = scanner.nextInt();
 
        
-        if (grade>=90) {
+        if (grade>=90 && grade<=100) {
             System.out.println("A");
         } else if (grade>=80) {
             System.out.println("B");
