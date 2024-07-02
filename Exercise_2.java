@@ -54,17 +54,22 @@ public class Exercise_2 {
         int grade = scanner.nextInt();
 
         if (grade>=90 && grade<=100) {
-            System.out.println("You will get (A)");
+            System.out.println("your score: " + grade);
+            System.out.println("Your grade is: A");
         } else if (grade>=80) {
-            System.out.println("You will get (B)");
+            System.out.println("your score: " + grade);
+            System.out.println("Your grade is: B");
         } else if (grade>=70) {
-            System.out.println("You will get (C)");
+            System.out.println("your score: " + grade);
+            System.out.println("Your grade is: C");
         } else if (grade>=60) {
-            System.out.println("You will get (D)");
+            System.out.println("your score: " + grade);
+            System.out.println("Your grade is: D");
         }else
-            System.out.println("You will get (F)");
+            System.out.println("your score: " + grade);
+            System.out.println("Your grade is: F");
 
-
+            
         //EX5
         System.out.println("Enter your age: ");
         int age = scanner.nextInt();
