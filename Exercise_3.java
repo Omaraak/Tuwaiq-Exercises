@@ -22,7 +22,7 @@ public class Exercise_3 {
 //        String text = scanner.nextLine();
 //        String newText="";
 //
-//        for (int i=text.length()-1; i>0; i--){
+//        for (int i=text.length()-1; i>=0; i--){
 //            newText+=text.charAt(i);
 //        }
 //        System.out.println(newText);
